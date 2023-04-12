@@ -1,0 +1,51 @@
+.slider{
+  width: 100%;
+  height:600px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(som1.jpg);
+  animation: slide 10s infinite;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+@keyframes slide{
+ 25%{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(som2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  50%{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(som3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  75%{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(som4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  100%{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(som5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+}
+.deal1{
+  margin: 70px auto;
+  margin-right: 80px;
+  margin-left: 80px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  height: 450px;
+  transition: 0.6s ease;
+  background-color: #e5d3b3;
+  display: none;
+}

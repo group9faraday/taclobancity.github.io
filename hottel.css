@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:#016064;
+    height: 100px;
+}
+header ul{
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 0px solid red;
+    border-radius: 10px;
+    transform: 0.6s ease;
+    font-size: 38px;
+    font-family: Helvetica;
+}
+header ul li a:hover{
+    background-color: #4682B4;
+    color: white;
+    font-family: Helvetica;
+}
+h2{
+	font-family: Tahoma;
+	font-size: 45px;
+	margin: 20PX 30px;
+	color:#016064;
+}
+.logo{
+	width: 180px;
+	cursor:pointer;
+	margin-left: 15px;
+	}

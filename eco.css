@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bridge.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #f5f5f5 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    height: 400px;
+    width: 630px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.imag{
+    height: 400px;
+    width: 630px;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 180px;
+    cursor:pointer;
+    margin-left: 15px;
+}
+header{
+    background-color:#016064;
+    height: 100px;
+}
+header ul{
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 0px solid red;
+    border-radius: 10px;
+    transform: 0.6s ease;
+    font-size: 28px;
+    font-family: Helvetica;
+}
+header ul li a:hover{
+    background-color: #4682B4;
+    color: white;
+    font-family: Helvetica;
+}

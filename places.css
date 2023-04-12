@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+ ul{
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+    margin-top: 12px;
+}
+ul li{
+    display: inline-block;
+}
+ ul li a{
+    text-decoration: none;
+    color: #29AB87;
+    padding: 5px 20px;
+    border: 0px solid red;
+    border-radius: 10px;
+    transform: 1s ease;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+ ul li a:hover{
+    background-color: #29AB87;
+    color: white;
+     border: 1px solid black
+    font-family: Helvetica;
+}
+img{
+    height:220px;
+    width:270px;
+    border: 3px solid #29AB87;
+    border-radius: 15px;
+}
+.brid{
+    position: absolute;
+    top:125px;
+    left:190px;
+}
+.hil{
+    position: absolute;
+    top:125px;
+    left:510px;
+}
+.isle{
+    position: absolute;
+    top:125px;
+    left:830px;
+}
+.kiv{
+    position: absolute;
+    top:380px;
+    left:190px;
+}
+.lin{
+    position: absolute;
+    top:380px;
+    left:510px;
+}
+.pak{
+    position: absolute;
+    top:380px;
+    left:830px;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(leytite.jfif);
+    background-size: cover;
+    background-position-y: 922px;
+    height: 100%
+}
+a img:hover{
+    border: 3px solid white;
+    border-radius: 35px;
+}
+
+

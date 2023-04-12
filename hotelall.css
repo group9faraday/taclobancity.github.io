@@ -1,0 +1,287 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:#016064;
+    height: 100px;
+}
+header ul{
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 0px solid red;
+    border-radius: 10px;
+    transform: 0.6s ease;
+    font-size: 28px;
+    font-family: Helvetica;
+}
+header ul li a:hover{
+    background-color: #4682B4;
+    color: white;
+    font-family: Helvetica;
+}
+.titles{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    margin: 20PX 30px;
+    color:#016064;
+}
+.logo{
+    width: 180px;
+    cursor:pointer;
+    margin-left: 15px;
+}
+.over{
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  margin: 40px 70px;
+  text-align: center;
+}
+.dett{
+    font-size: 32px;
+}
+.description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+.select{
+    max-width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    background: whitesmoke;
+    padding: 20px;
+    background-color: #96bb72;
+}
+input[type=text], select{
+        cursor: pointer;
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0 px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index:1;
+    display: none;
+}
+.popup .content{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 450px;
+    height: 220px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.popup .close-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.popup.active .overlay{
+    display: block;
+}
+.popup.active .content{
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 300ms ease-in-out;
+}
+.buttt{
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: white;
+    background-color:#48AAAD;
+    border-radius: 10px;
+    border: none;
+}
+.lead{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    margin: 20px 30px 10px 30px;
+    color:#016064;
+}
+.deal1:hover{
+  transform: scale(1.05);
+  border: 2px solid black;
+}
+.deall1{
+  height: 100%;
+  width: 50%;
+  border-radius: 5px;
+}
+.dets{
+    display:block;
+    float: right;
+    margin: 20px;
+    margin-right: 170px;
+    font-family: 'Poppins', sans-serif;
+    width: 380px;
+}
+.ssss{
+    font-size: 20px;
+}
+.hote{
+    font-size: 26px;
+}
+ul{
+    list-style-position: inside;
+}
+ul li{
+    font-size: 20px;
+}
+.deal{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border: 0px solid;  
+  border-inline-color: #ca5cdd;
+  border-radius: 20px;
+  background-color: #ca5cdd ;
+  padding: 15px 45px;
+  margin-top: 50px;
+  color: white;
+  text-align: right;
+}
+.deal:hover{
+  background-color: white;
+  border: 4px solid lightcyan;
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+.sss{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.contain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.map{
+    font-family: Tahoma;
+    font-size: 45px;
+    margin: 20PX 30px;
+    color:#016064;
+    margin-bottom: 15px;
+}
+iframe{
+    width: 100%;
+    height: 565px;
+}
+.check form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.check form .flex .box{
+}
+.check form .flex .box h2{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color:#016064;
+}
+.check form .flex .box input{
+    width: 160px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    background-color:#48AAAD;
+    color: white;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containe{
+    display: flex;
+}
+.card{
+    height: 350px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27, 27, 27, 0.5);
+    color: white;
+    transition: .5s;
+}
+h1{
+    margin: 10px;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+}
+.containe p{
+    margin: 20px;
+    font-size: 18px;
+    visibility: hidden;
+    opacity: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 220px;
+    background: black;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+    font-family: 'Poppins', sans-serif;
+}
+.card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}

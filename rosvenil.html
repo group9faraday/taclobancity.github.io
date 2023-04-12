@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+ <head>
+    <link rel="shortcut icon" type="img/ico" href="favicon.ico">
+    <title>Rosvenil Hotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ros.css">
+    <link rel="stylesheet" href="hotelall.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="ros.js"></script>
+</head>
+<header>
+    <div class ="navbar">
+        <a href="Home Page.html"><img src ="logoat.png" class ="logo"></a>
+    <ul>
+        <li><a href="hellaur(1).html"><i class="fa-solid fa-user"></i></i></a></li>
+        <li><a href="ecoo.html"><i class="fa-sharp fa-solid fa-bars"></i></a></li>
+                </ul>
+    </ul>
+</header>
+<body style="background-color: whitesmoke;"> 
+    <div class="slider">
+        <div class="over">
+            <h3 style="font-size: 60px;"> ROSVENIL HOTEL </h3>
+            <br>
+            <p class="dett"><i class="fa-sharp fa-solid fa-location-dot"></i>  P Burgos St, Downtown, Tacloban City, 6500 Leyte </p>
+            <p class="dett"><i class="fa-sharp fa-solid fa-phone-volume"></i>  (053) 321 2676 </p>
+            <br>
+            <p class="description">Located in Tacloban, 8.5 km from MacArthur Landing Memorial National Park, Rosvenil Hotel has accommodations with a garden, free private parking, a terrace and a restaurant. The property provides a 24-hour front desk, airport transportation, room service and free WiFi throughout the property. The hotel will provide guests with air-conditioned rooms with a desk, a safety deposit box, a flat-screen TV, a patio and a private bathroom with a shower. The rooms have a closet.An àla carte breakfast is available each morning at Rosvenil Hotel. The nearest airport is Daniel Z. Romualdez Airport, 9 km from the accommodation. Couples in particular like the location – they rated it 9.0 for a two-person trip.</p> 
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div class="check">
+        <form action="" method="POST">
+            <div class="flex">
+                <div class="box">
+                    <h2> Check-In <span>*</span></h2>
+                    <input type="date" name="check-in" class="box" required>
+                </div>
+                <div class="box">
+                    <h2> Check-Out <span>*</span></h2>
+                    <input type="date" name="check-out" class="box" required>
+                </div>
+            </div>
+        </form>
+    </div>
+    <h2 class="lead"> Deals </h2>
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h2 style="font-family: Tahoma; margin: 5px;"> How Many Guests? </h2>
+            <div class="select">
+        <select id="country" onchange="showMe(this)">
+            <option>-Please Select-</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </div>
+    </div>
+    </div>
+    <button class="buttt" onclick="togglePopup()"><i class="fa-sharp fa-solid fa-layer-group"></i> Sort </button>
+    <br><br>
+    <div id="myDIV" class="deal1">
+    <img class="deall1" src="delt.jpg">
+    <div class="dets">
+    <h2 class="hote"> Deluxe Twin Room </h2>
+    <br>
+    <p class="ssss"> 2 Twin Beds </p>
+    <p class="ssss"> 2 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>Soundproof</li>
+            <li>Free & Unlimited WiFi</li>
+            <li>Balcony</li>
+        </ul>
+    <br>
+    <p class="sss"> Php2,249/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIV2" class="deal1">
+    <img class="deall1" src="deld.jpg">
+    <div class="dets">
+    <h2 class="hote"> Deluxe Double Room </h2>
+    <br>
+    <p class="ssss"> 1 Double Bed </p>
+    <p class="ssss"> 2 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>Soundproof</li>
+            <li>Free & Unlimited WiFi</li>
+            <li>Street View</li>
+        </ul>
+    <br>
+    <p class="sss"> Php2,699/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIVA" class="deal1">
+    <img class="deall1" src="dels.jpg">
+    <div class="dets">
+    <h2 class="hote"> Deluxe Suite </h2>
+    <br>
+    <p class="ssss"> 1 Queen Bed </p>
+    <p class="ssss"> 3-4 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>Safe Box</li>
+            <li>Free & Unlimited WiFi</li>
+            <li>City View</li>
+        </ul>
+    <br>
+    <p class="sss"> Php3,349/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIV3" class="deal1">
+    <img class="deall1" src="dels.jpg">
+    <div class="dets">
+    <h2 class="hote"> Deluxe Suite </h2>
+    <br>
+    <p class="ssss"> 1 Queen Bed </p>
+    <p class="ssss"> 3-4 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>Safe Box</li>
+            <li>Free & Unlimited WiFi</li>
+            <li>City View</li>
+        </ul>
+    <br>
+    <p class="sss"> Php3,349/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIV4" class="deal1">
+    <img class="deall1" src="delf.jpg">
+    <div class="dets">
+    <h2 class="hote"> Deluxe Family </h2>
+    <br>
+    <p class="ssss"> 1 Queen Bed & 1 Single Bed </p>
+    <p class="ssss"> 4-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>Free Breakfast & Dinner</li>
+            <li>Free & Unlimited WiFi</li>
+            <li>City View</li>
+        </ul>
+    <br>
+    <p class="sss"> Php4,199/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIVD" class="deal1">
+    <img class="deall1" src="delf.jpg">
+    <div class="dets">
+    <h2 class="hote"> Deluxe Family </h2>
+    <br>
+    <p class="ssss"> 1 Queen Bed & 1 Single Bed </p>
+    <p class="ssss"> 4-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>Free Breakfast & Dinner</li>
+            <li>Free & Unlimited WiFi</li>
+            <li>City View</li>
+        </ul>
+    <br>
+    <p class="sss"> Php4,199/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+    <br>
+    <div class="body">
+    <div class="containe">
+        <div class="card">
+            <img style="height: 350px;width: 350px;border-radius: 3px;transition: .5s;" class="serve" src="kama.jpg">
+            <div class="intro">
+                <h1 style="font-size: 32px;">Services & Utilities</h1>
+                <p>Air Conditioning <br>
+                Free Wi-Fi<br>
+                Flatscreen TV<br>
+                Toiletries<br>
+                Room Service<br></p>
+            </div>
+        </div>
+    </div>
+    <div class="containe">
+        <div class="card">
+            <img style="height: 350px;width: 350px;border-radius: 3px;transition: .5s;" class="serve" src="chandelier.jpg">
+            <div class="intro">
+                <h1>Facilities</h1>
+                  <p>Air Conditioning<br>
+                  Balcony<br>
+                  Free Parking Space<br>
+                  Non-smoking Rooms<br>
+                  Local Restaurant<br>
+                 </p>
+            </div>
+        </div>
+    </div>
+    <div class="containe">
+        <div class="card">
+            <img style="height: 350px;width: 350px;border-radius: 3px;transition: .5s;" class="serve" src="bell.jpg">
+            <div class="intro">
+                <h1 style="font-size: 26px;">Staff and Management</h1>
+                  <p>Friendly and kind staff with<br>
+                  no anger issues<br>
+                  Can accomodate English and
+                  Filipino speakers<br></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="contain">
+        <h2 class="map"> Location </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.29139792331!2d125.00222191480508!3d11.239961292008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x330876d000000001%3A0x580b4b4a09868445!2sRosvenil%20Hotel!5e0!3m2!1sen!2sph!4v1679760582021!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h3> Contact </h3>
+                        <br>
+                        <p> Provincial Government of Southern Leyte<br>(053) 832 - 3993<br><br>Department of Tourism - Regional Office VIII<br>(053) 832 - 0901</p>
+                    </div>
+                    <div class="footer-col">
+                        <h3> Links </h3>
+                        <br>
+                        <p> Provincial Government of Southern Leyte</p>
+                        <div class="soclink">
+                            <a href="https://southernleyte.gov.ph/"><i class="fa-solid fa-globe"></i></a>
+                            <a href="https://www.facebook.com/ProvincialGovernmentofSouthernLeyte?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://maps.app.goo.gl/J3AcnZrCBM3kvERa9"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                        <br>
+                        <p> Department of Tourism - Philippines</p>
+                        <div class="soclink">
+                            <a href="https://beta.tourism.gov.ph/"><i class="fa-solid fa-globe"></i></a>
+                            <a href="https://www.facebook.com/DepartmentOfTourism?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://maps.app.goo.gl/YHdSmHsWA9V6kqDL6"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3> Discover More </h3>
+                        <br>
+                        <a href="https://philippines.travel/destinations/southern-leyte"> https://philippines.travel/destinations/<br>southern-leyte </a>
+                        <br>                        
+                        <br>
+                        <h3 style="border-top: 2px solid white; padding-top: 10px;"> Creators </h3>
+                        
+                        <p><a href="https://www.facebook.com/cydnie.janine.7?mibextid=ZbWKwL"><i class="fa-solid fa-circle-info"></i></a> Researcher <br>
+                        <p><a href="https://www.facebook.com/profile.php?id=100010908548190&mibextid=ZbWKwL"><i class="fa-solid fa-circle-info"></i></a> Editor <br>
+                        <p><a href="https://www.facebook.com/marianojammm?mibextid=ZbWKwL"><i class="fa-solid fa-circle-info"></i></a> Layout Artist <br>
+                        <p><a href="https://www.facebook.com/gianneribabas.mancha?mibextid=ZbWKwL"><i class="fa-solid fa-circle-info"></i></a> Coder <br>
+                    </div>
+                </div>
+            </div>
+            <img class="futer" src="logo.png">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="ehe"> © TSHS 9-Faraday / Group 9 / All Rights Reserved </p>
+        </footer>
+</body>
+</html>

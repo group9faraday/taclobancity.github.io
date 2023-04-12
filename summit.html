@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+ <head>
+    <link rel="shortcut icon" type="img/ico" href="favicon.ico">
+    <title>Summit Hotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="summit.css">
+    <link rel="stylesheet" href="hotelall.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="sum.js"></script>
+</head>
+<header>
+    <div class ="navbar">
+        <a href="Home Page.html"><img src ="logoat.png" class ="logo"></a>
+    <ul>
+        <li><a href="hellaur(1).html"><i class="fa-solid fa-user"></i></i></a></li>
+        <li><a href="ecoo.html"><i class="fa-sharp fa-solid fa-bars"></i></a></li>
+                </ul>
+    </ul>
+</header>
+<body style="background-color: whitesmoke;"> 
+    <div class="slider">
+        <div class="over">
+            <h3 style="font-size: 60px;"> SUMMIT HOTEL </h3>
+            <br>
+            <p class="dett"><i class="fa-sharp fa-solid fa-location-dot"></i> Robinsons Place Tacloban Brgy. 77 Marasbaras, Tacloban City, 6500 Leyte </p>
+            <p class="dett"><i class="fa-sharp fa-solid fa-phone-volume"></i>  (+63)998 840 7356</p>
+            <br>
+            <p class="description">The fifth property in the Summit Hotels and Resorts collection is located in the heart of Tacloban City. The 138-room Summit Hotel Tacloban features a Tropical look that is achieved with basket-weave walls, coconut-leaf patterns, and native stone surfaces. Get pampered in the cozy rooms that are furnished with quality beds and linens, and ultra-soft, non-allergenic pillows. The festivals held in the region are celebrated in the Suite rooms completed with premium customized amenities. Spend the golden hour at the in-house restaurant, Patron Casual Dining. See the kids have fun at the pool deck while indulging on good food at the al fresco dining area. Bound to be the perfect destination for all celebrations, Summit Hotel Tacloban is built with a Grand Ballroom, finished off with up-to-date technical equipment and elegant design.</p> 
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div class="check">
+        <form action="" method="POST">
+            <div class="flex">
+                <div class="box">
+                    <h2> Check-In <span>*</span></h2>
+                    <input type="date" name="check-in" class="box" required>
+                </div>
+                <div class="box">
+                    <h2> Check-Out <span>*</span></h2>
+                    <input type="date" name="check-out" class="box" required>
+                </div>
+            </div>
+        </form>
+    </div>
+    <h2 class="lead"> Deals </h2>
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h2 style="font-family: Tahoma; margin: 5px;"> How Many Guests? </h2>
+            <div class="select">
+        <select id="country" onchange="showMe(this)">
+            <option>-Please Select-</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </div>
+    </div>
+    </div>
+    <button class="buttt" onclick="togglePopup()"><i class="fa-sharp fa-solid fa-layer-group"></i> Sort </button>
+    <br><br>
+    <div id="myDIV" class="deal1">
+    <img class="deall1" src="deluxe.png">
+    <div class="dets">
+    <h2 class="hote"> Deluxe Twin </h2>
+    <br>
+    <p class="ssss"> 2 Twin Beds </p>
+    <p class="ssss"> 2 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Free & Unlimited WiFi</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php2,949/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIV2" class="deal1">
+    <img class="deall1" src="sung.jpg">
+    <div class="dets">
+    <h2 class="hote"> Sangyaw Suite </h2>
+    <br>
+    <p class="ssss"> 1 King Bed </p>
+    <p class="ssss"> 3-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Dedicated WiFi for Each Room</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php3,799/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIVR" class="deal1">
+    <img class="deall1" src="sung.jpg">
+    <div class="dets">
+    <h2 class="hote"> Sangyaw Suite </h2>
+    <br>
+    <p class="ssss"> 1 King Bed </p>
+    <p class="ssss"> 3-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Dedicated WiFi for Each Room</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php3,799/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIVV" class="deal1">
+    <img class="deall1" src="sung.jpg">
+    <div class="dets">
+    <h2 class="hote"> Sangyaw Suite </h2>
+    <br>
+    <p class="ssss"> 1 King Bed </p>
+    <p class="ssss"> 3-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Dedicated WiFi for Each Room</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php3,799/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIVA" class="deal1">
+    <img class="deall1" src="pint.jpg">
+    <div class="dets">
+    <h2 class="hote"> Pintados Suite </h2>
+    <br>
+    <p class="ssss"> 1 King Bed </p>
+    <p class="ssss"> 3-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Dedicated WiFi for Each Room</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php3,949/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIVB" class="deal1">
+    <img class="deall1" src="pint.jpg">
+    <div class="dets">
+    <h2 class="hote"> Pintados Suite </h2>
+    <br>
+    <p class="ssss"> 1 King Bed </p>
+    <p class="ssss"> 3-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Dedicated WiFi for Each Room</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php3,949/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIV3" class="deal1">
+    <img class="deall1" src="pint.jpg">
+    <div class="dets">
+    <h2 class="hote"> Pintados Suite </h2>
+    <br>
+    <p class="ssss"> 1 King Bed </p>
+    <p class="ssss"> 3-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Dedicated WiFi for Each Room</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php3,949/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIV4" class="deal1">
+    <img class="deall1" src="lub.jpg">
+    <div class="dets">
+    <h2 class="hote"> Lubi-Lubi Suite </h2>
+    <br>
+    <p class="ssss"> 1 King Bed </p>
+    <p class="ssss"> 4-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Dedicated WiFi for Each Room</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php4,249/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIVE" class="deal1">
+    <img class="deall1" src="lub.jpg">
+    <div class="dets">
+    <h2 class="hote"> Lubi-Lubi Suite </h2>
+    <br>
+    <p class="ssss"> 1 King Bed </p>
+    <p class="ssss"> 4-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Dedicated WiFi for Each Room</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php4,249/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+
+    <div id="myDIVD" class="deal1">
+    <img class="deall1" src="lub.jpg">
+    <div class="dets">
+    <h2 class="hote"> Lubi-Lubi Suite </h2>
+    <br>
+    <p class="ssss"> 1 King Bed </p>
+    <p class="ssss"> 4-5 people </p>
+    <br>
+        <ul>
+            <li>Air Conditioning</li>
+            <li>Flat Screen TV</li>
+            <li>In-room Safe</li>
+            <li>Dedicated WiFi for Each Room</li>
+            <li>Coffee/Tea Making Services</li>
+        </ul>
+    <br>
+    <p class="sss"> Php4,249/night </p><br>
+    <a href="payment.html" class="deal"><b> Avail </b></a>
+    </div>
+    </div>
+    <br>
+    <div class="body">
+    <div class="containe">
+        <div class="card">
+            <img style="height: 350px;width: 350px;border-radius: 3px;transition: .5s;" class="serve" src="kama.jpg">
+            <div class="intro">
+                <h1 style="font-size: 32px;">Services & Utilities</h1>
+                <p>Air Conditioning <br>
+                Free Wi-Fi<br>
+                Flatscreen TV<br>
+                Toiletries<br>
+                Room Service<br></p>
+            </div>
+        </div>
+    </div>
+    <div class="containe">
+        <div class="card">
+            <img style="height: 350px;width: 350px;border-radius: 3px;transition: .5s;" class="serve" src="chandelier.jpg">
+            <div class="intro">
+                <h1>Facilities</h1>
+                  <p>Air Conditioning<br>
+                  Balcony<br>
+                  Free Parking Space<br>
+                  Non-smoking Rooms<br>
+                  Local Restaurant<br>
+                 </p>
+            </div>
+        </div>
+    </div>
+    <div class="containe">
+        <div class="card">
+            <img style="height: 350px;width: 350px;border-radius: 3px;transition: .5s;" class="serve" src="bell.jpg">
+            <div class="intro">
+                <h1 style="font-size: 26px;">Staff and Management</h1>
+                  <p>Friendly and kind staff with<br>
+                  no anger issues<br>
+                  Can accomodate English and
+                  Filipino speakers<br></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="contain">
+        <h2 class="map"> Location </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.7133349318274!2d125.00514671480488!3d11.208832792028977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3308774ae9b998e7%3A0xf456dbe8344853d6!2sSummit%20Hotel%20Tacloban!5e0!3m2!1sen!2sph!4v1679758501541!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h3> Contact </h3>
+                        <br>
+                        <p> Provincial Government of Southern Leyte<br>(053) 832 - 3993<br><br>Department of Tourism - Regional Office VIII<br>(053) 832 - 0901</p>
+                    </div>
+                    <div class="footer-col">
+                        <h3> Links </h3>
+                        <br>
+                        <p> Provincial Government of Southern Leyte</p>
+                        <div class="soclink">
+                            <a href="https://southernleyte.gov.ph/"><i class="fa-solid fa-globe"></i></a>
+                            <a href="https://www.facebook.com/ProvincialGovernmentofSouthernLeyte?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://maps.app.goo.gl/J3AcnZrCBM3kvERa9"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                        <br>
+                        <p> Department of Tourism - Philippines</p>
+                        <div class="soclink">
+                            <a href="https://beta.tourism.gov.ph/"><i class="fa-solid fa-globe"></i></a>
+                            <a href="https://www.facebook.com/DepartmentOfTourism?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://maps.app.goo.gl/YHdSmHsWA9V6kqDL6"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3> Discover More </h3>
+                        <br>
+                        <a href="https://philippines.travel/destinations/southern-leyte"> https://philippines.travel/destinations/<br>southern-leyte </a>
+                        <br>                        
+                        <br>
+                        <h3 style="border-top: 2px solid white; padding-top: 10px;"> Creators </h3>
+                        
+                        <p><a href="https://www.facebook.com/cydnie.janine.7?mibextid=ZbWKwL"><i class="fa-solid fa-circle-info"></i></a> Researcher <br>
+                        <p><a href="https://www.facebook.com/profile.php?id=100010908548190&mibextid=ZbWKwL"><i class="fa-solid fa-circle-info"></i></a> Editor <br>
+                        <p><a href="https://www.facebook.com/marianojammm?mibextid=ZbWKwL"><i class="fa-solid fa-circle-info"></i></a> Layout Artist <br>
+                        <p><a href="https://www.facebook.com/gianneribabas.mancha?mibextid=ZbWKwL"><i class="fa-solid fa-circle-info"></i></a> Coder <br>
+                    </div>
+                </div>
+            </div>
+            <img class="futer" src="logo.png">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="ehe"> © TSHS 9-Faraday / Group 9 / All Rights Reserved </p>
+        </footer>
+</body>
+</html>

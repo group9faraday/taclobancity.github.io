@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="accpage.css">
+</head>
+<header>
+    <div class ="navbar">
+        <img src ="logoat.png" class ="logo">
+    <ul>
+        <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-user"></i></i></a></li>
+        <li><a href="#"><i class="fa-sharp fa-solid fa-bars"></i></a></li>
+                </ul>
+    </ul>
+</header>
+<body>
+ <!--image slide start -->
+    <div class ="slider">
+        <div class="slides">
+            <!--radio buttns start-->
+            <input type ="radio" name="radio-btn" id="radio1">
+            <input type ="radio" name="radio-btn" id="radio2">
+            <input type ="radio" name="radio-btn" id="radio3">
+            <!--radio buttns end-->
+
+        <!--slide images start-->
+        <div class="slide first">
+            <img src="rosvenil.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="summit.jpg" alt="">
+        </div>
+        <div class="slide third">
+            <img src="ironwood.jpg" alt="">
+        </div>
+
+        <!--automatic nav start-->
+            <div class="navigation-auto">
+            <div class="auto-btn1"></div>        
+            <div class="auto-btn2"></div>        
+            <div class="auto-btn3"></div>    
+            </div>
+         </div>  
+
+        <!--manual-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio + counter').checked = true;
+            counter++;
+            if (counter > 4){
+                    counter= 1; 
+            }
+        }, 5000);
+    </script>
+
+<!--<button id="maps"> Maps </button> 
+    <button style="padding: 35px 140px;" id="maps"><i class="fa-regular fa-map-location-dot"></i><br> Maps </button> 
+    <h2><b><b>Tacloban City Hotels</b></b></h2>
+    <button id="sort"><i class="fa-solid fa-filter"></i> <br> Sort and Filter </button>
+    <button style="padding: 35px 140px;" id="sort"><i class="fa-solid fa-calendar-days"></i><br> Check your dates </button>
+    <button style="padding: 35px 120px;" id="sort" id="sort"><i class="fa-solid fa-bed"></i><br> Guests     </button>
+    <br><br>    
+    <button style="padding: 35px 140px;" id="sort" id="sort"><i class="fa-solid fa-bed"></i><br> Guests     </button> -->
+    <section class="availability">
+        <form action="">
+            <div class="box">
+                <p>Check in <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>Check out <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p> Adults <span>*</span></p>
+                <select name="adults" id="" class="input">
+                        <option value="1"> 1 adult </option>
+                        <option value="2"> 2 adults </option>
+                        <option value="3"> 3 adults </option>
+                        <option value="4"> 4 adults</option>
+                        <option value="5"> 5 adults</option>
+                        <option value="6"> 6 adults</option>
+
+                </select>
+            </div>
+
+            <div class="box">
+                <p> Children <span>*</span></p>
+                <select name="children" id="" class="input">
+                        <option value="1"> 1 adult </option>
+                        <option value="2"> 2 adults </option>
+                        <option value="3"> 3 adults </option>
+                        <option value="4"> 4 adults</option>
+                        <option value="5"> 5 adults</option>
+                        <option value="6"> 6 adults</option>
+
+                </select>
+            </div>
+
+            <div class="box">
+                <p> Rooms <span>*</span></p>
+                <select name="rooms" id="" class="input">
+                        <option value="1"> 1 adult </option>
+                        <option value="2"> 2 adults </option>
+                        <option value="3"> 3 adults </option>
+                        <option value="4"> 4 adults</option>
+                        <option value="5"> 5 adults</option>
+                        <option value="6"> 6 adults</option>
+
+                </select>
+            </div>
+
+            <input type="submit" value="check availability" class="btn">
+        </form> 
+       
+
+
+                    
+                            
+
+
+
+ 
+
+</body>
+</html>

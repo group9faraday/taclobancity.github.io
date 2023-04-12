@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.menu_bar{
+    background-color:#6F8FAF;
+    height:80px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+h1{
+    color:white;
+    font-family: Tahoma;
+    font-size: 50px;
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding:10px 15px;
+    position: relative;
+}
+.menu_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.6s ease;
+    font-family: Helvetica;
+}
+.menu_bar ul li a:hover{
+    color:white;
+}
+.dropdown{
+    display: block;
+    position: absolute;
+    left:0;
+    top:100%;
+    background-color: #6F8FAF;
+}
+.dropdown ul{
+    display: block;
+    margin: 10px;
+}
